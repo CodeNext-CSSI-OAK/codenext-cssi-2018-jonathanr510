@@ -1,4 +1,3 @@
 // Author: Jonathan Rodriguez
 
-console.log('Hello World!!');
-console.log('hey everybody!');
+//console.log("y = 2003")
