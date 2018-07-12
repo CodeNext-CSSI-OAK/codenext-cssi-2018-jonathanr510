@@ -8,7 +8,7 @@ console.log('WeLcOmE TO thE ChAnGe MaChIne!!');
 
 let cents = Number(readline.question ('Please Enter cents as a positive integer'));
 
-console.log(cents + 'Cents Makes');
+console.log(cents + ' Cents Makes');
 
 let quarters = Math.floor(cents / 25);
 
@@ -26,16 +26,10 @@ let pennies = Math.floor(cents / 1);
 
 cents = cents % 1;
 
-console.log('Quarters' + quarters);
-
-console.log('Dimes' + dimes);
-
-console.log('Nickles' + nickles);
-
-console.log('Pennies' + pennies);
-
+console.log('Quarters ' + quarters);
+console.log('Dimes ' + dimes);
+console.log('Nickles ' + nickles);
+console.log('Pennies ' + pennies);
 console.log('hOpE yOu ArE sAtisFied wItH YoUR rEsulTS');
-
 console.log('HAVE A GOOD DAY GOODBYE');
-
 console.log('*************************************************************************')
